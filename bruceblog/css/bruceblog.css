@@ -1,0 +1,260 @@
+﻿body {
+    margin: 0;
+}
+
+.maindiv {
+    margin: auto;
+    width: 1000px;
+    /*background-color: #4cff00;*/
+}
+
+.navheader {
+    height: 40px;
+    /*background-color: #ff6a00;*/
+}
+
+    .navheader ul {
+        width: 400px;
+        margin: 0;
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .navheader li {
+        margin: 0;
+        width: 100px;
+        height: 40px;
+        float: left;
+        line-height: 40px;
+        background-color: #808080;
+        text-align: center;
+        cursor: pointer;
+    }
+
+/*.navheader li:hover {
+                    background-color: #b6ff00;
+                }*/
+
+.indexlogo {
+    width: 40px;
+    height: 40px;
+    background-color: #0094ff;
+    float: left;
+}
+
+#loginsignup {
+    margin-top: 12px;
+    width: 140px;
+    height: 30px;
+    /*background-color:#b200ff;*/
+    display: block;
+    float: right;
+}
+
+#login {
+    float: left;
+    width: 70px;
+    height: 30px;
+    /*background-color:#808080;*/
+    display: block;
+    line-height: 30px;
+    text-align: right;
+    font-size:14px;
+}
+
+#signup {
+    font-size:14px;
+    float: left;
+    width: 70px;
+    height: 30px;
+    display: block;
+    /*background-color:#ff0000;*/
+    line-height: 30px;
+    text-align: left;
+}
+
+#indexcontentdiv {
+    width: 1000px;
+    /*background-color: #00ff90;*/
+    height: 460px;
+    /*position:absolute;*/
+    /*visibility:visible;*/
+}
+
+#dynamiccontentdiv {
+    width: 1000px;
+    min-height: 400px;
+    /*background-color: #b200ff;*/
+    /*position: absolute;*/
+    /*visibility:hidden;*/
+    display: none;
+}
+
+#writeblogcontentdiv {
+    width: 1000px;
+    height: 500px;
+    /*background-color: #0094ff;*/
+    /*position: absolute;*/
+    /*visibility:hidden;*/
+    display: none;
+}
+
+#messagecontentdiv {
+    width: 1000px;
+    height: 360px;
+    /*background-color: #c42b2b;*/
+    /*position: absolute;*/
+    /*visibility:hidden;*/
+    display: none;
+}
+
+.footerdiv {
+    width: 1000px;
+    background-color: #ff6a00;
+    height: 100px;
+}
+
+.indexheader {
+    height: 30px;
+    background-color: #0094ff;
+    margin: auto;
+}
+
+.searchpanel {
+    margin-left: 100px;
+    width: 294px;
+    height: 32px;
+    /*background-color:#b200ff;*/
+    float: left;
+    margin-top: 6px;
+}
+
+#searchcontainer {
+    float: left;
+    height: 22px;
+    width: 260px;
+    margin-top: 1px;
+}
+
+#spanbtnSearch {
+    float: left;
+    width: 28px;
+    height: 29px;
+    background-color: #ff0000;
+    display: block;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+.spanblogtitle {
+    width: 100px;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    font-family: 'Microsoft JhengHei';
+    font-size: 20px;
+    float: left;
+}
+
+.blogtitlediv {
+    width: 760px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+    .blogtitlediv input {
+        width: 400px;
+        height: 30px;
+        float: left;
+        margin-top: 10px;
+    }
+
+.blogcontentdiv {
+    width: 760px;
+    height: 360px;
+}
+
+.blogsubmit {
+    width: 760px;
+    height: 50px;
+}
+
+    .blogsubmit button {
+        width: 200px;
+        height: 50px;
+        background-color: #ffd800;
+        cursor: pointer;
+    }
+
+#signupback {
+    position: fixed;
+    background-color: #808080;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    top: 0;
+    visibility: hidden;
+}
+
+#signupopdialog {
+    position: fixed;
+    top: 0;
+    left: 30%;
+    right: 30%;
+    /*background-color: #808080;*/
+    bottom: 30%;
+    min-width: 450px;
+    height: 500px;
+    z-index: 10001;
+    max-width: 600px;
+    visibility: hidden;
+}
+
+#signupformarea {
+    width: 450px;
+    /*background-color: #ff6a00;*/
+    background-color:#ffffff;
+    height: 330px;
+    margin: auto;
+    position: absolute;
+    border:4px solid #0094ff;
+}
+
+#loginformarea {
+    width: 450px;
+    border:4px solid #0094ff;
+    /*background-color: #ff6a00;*/
+    background-color:#ffffff;
+    height: 190px;
+    margin: auto;
+    position: absolute;
+    margin-top: 0;
+}
+
+#signupopdialog label {
+    margin-left:10px;
+    width: 100px;
+    height: 25px;
+}
+
+#signupopdialog input {
+    width: 200px;
+    height: 25px;
+    margin-left: 1px;
+}
+
+#signupopdialog span {
+    width: 100px;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    /*background-color: #808080;*/
+    background-color:#ff6a00;
+    line-height: 30px;
+    margin-left:10px;
+    margin-top:10px;
+}
